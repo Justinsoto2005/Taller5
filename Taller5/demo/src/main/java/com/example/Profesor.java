@@ -1,6 +1,9 @@
 package com.example;
 
+import java.util.List;
+
 public class Profesor extends PersonalAcademico {
+    protected List<Curso> cursos;
     public Profesor(String usuario, String contrasena, String nombre, String apellido) {
         super(usuario, contrasena, nombre, apellido);
     }
@@ -15,6 +18,6 @@ public class Profesor extends PersonalAcademico {
 
     }
     public void crearNuevoForo(Foro foro) {
-        
+
     }
 }
