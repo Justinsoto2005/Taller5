@@ -7,5 +7,4 @@ public class ActividadSumativa {
   protected String contenido;
   protected float calificacion;
   protected String id;
-
 }
