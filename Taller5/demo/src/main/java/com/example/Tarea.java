@@ -1,7 +1,9 @@
 package com.example;
 
+import java.time.LocalDateTime;
+
 public class Tarea extends ActividadSumativa {
-  private DateTime fechaDePublicacion;
+  private LocalDateTime fechaDePublicacion;
 
   public Tarea() {
   }

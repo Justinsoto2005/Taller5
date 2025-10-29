@@ -1,5 +1,7 @@
 package com.example;
 
+import java.util.ArrayList;
+
 public class Curso {
   private String id;
   private String nombre;
@@ -13,7 +15,7 @@ public class Curso {
   public Curso() {
   }
 
-  public void crear(String i, String n, boolean e, Arraylist<Estudiante> eeeI, ArrayList<Estudiante> eI, Profesor r) {
+  public void crear(String i, String n, boolean e, ArrayList<Estudiante> eeeI, ArrayList<Estudiante> eI, Profesor r) {
     id = i;
     nombre = n;
     estadoDisponible = e;
