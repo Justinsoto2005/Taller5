@@ -14,10 +14,10 @@ public class Usuario {
     }
 
     protected boolean logIn() {
-        
+        return true;
     }
 
     protected boolean logOut() {
-        
+        return false;
     }
 }
